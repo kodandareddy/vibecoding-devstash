@@ -8,6 +8,9 @@ Read the following to get the full context of the project:
 
 - @context/project-overview.md
 - @context/coding-standards.md
+- @context/ai-interaction.md
+- @context/current-feature.md
+
 
 
 
@@ -25,3 +28,6 @@ npm run lint     # Run ESLint
 
 No test suite is configured yet.
 
+## Environment
+
+`DATABASE_URL` (Neon PostgreSQL) lives in `.env` (gitignored). See Neon dashboard for the connection string.
